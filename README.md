@@ -1,0 +1,1 @@
+This project aims to satisfy John O'Reilly with an aesthetically pleasing website that draws in pontential new customers for his business "Wheels on Fire". We have so far included a Home, About and Contact Us pages. 

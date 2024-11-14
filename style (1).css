@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    color: black;
+    font-size: 20px;
+    padding-top: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    background-color: #787878;
+    margin-top: 80px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+    color: black;
+}
+
+.car-section {
+    padding: 20px;
+    background-color: white;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.car-section h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.car-image {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 0 auto 15px;
+}
+
+.testimonial {
+    font-style: italic;
+    font-size: 18px;
+    color: black;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #787878;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.owner-image {
+    width: 250px;
+    border-radius: 125px;
+    max-width: 100%;
+}
+.car-of-the-week {
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* This centers inline content */
+    margin: 40px 0;
+    width: 50rem;
+    height: 40rem;
+    
+    
+    
+}
+.about_us {
+    font-size: 18px;
+    color: black;
+}
+
+.contact_info {
+    font-size: 26px;
+    color: black;
+}
+
+.up_events {
+    font-size: 28px;
+    color: black;
+}
+
+
+.animation{
+
+    height: 15rem;
+    width: 15rem;
+   
+
+}
+

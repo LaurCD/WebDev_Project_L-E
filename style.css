@@ -114,17 +114,27 @@ footer {
     color: black;
 }
 .up-events {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 20px;
+    display: flex; /* Arrange items in a horizontal row */
+    justify-content: space-around; /* Space out items evenly */
+    align-items: center; /* Align items vertically */
+    gap: 20px; /* Add spacing between items */
     margin-top: 20px;
 }
 
-.up-events img {
-    max-width: 300px;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+.up-events div {
+    text-align: center; /* Center the image and title */
+    width: 150px; /* Fix width for each item to ensure alignment */
 }
+
+.up-events img {
+    max-width: 100%; /* Make images responsive within the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Rounded corners for images */
+    margin-bottom: 10px; /* Add space between image and title */
+}
+
+.up-events h3 {
+    font-size: 16px; /* Small enough to fit in one row */
+    color: black;
+    margin: 0;
+    word-wrap: break-word; /* Wrap long titles if necessary */

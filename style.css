@@ -118,8 +118,12 @@ footer {
     font-size: 28px;
     color: black;
 }
-
-
+.up-events {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex
+}
 .animation{
 
     height: 15rem;

@@ -113,28 +113,4 @@ footer {
     font-size: 26px;
     color: black;
 }
-.up-events {
-    display: flex; /* Arrange items in a horizontal row */
-    justify-content: space-around; /* Space out items evenly */
-    align-items: center; /* Align items vertically */
-    gap: 20px; /* Add spacing between items */
-    margin-top: 20px;
-}
 
-.up-events div {
-    text-align: center; /* Center the image and title */
-    width: 150px; /* Fix width for each item to ensure alignment */
-}
-
-.up-events img {
-    max-width: 100%; /* Make images responsive within the container */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Optional: Rounded corners for images */
-    margin-bottom: 10px; /* Add space between image and title */
-}
-
-.up-events h3 {
-    font-size: 16px; /* Small enough to fit in one row */
-    color: black;
-    margin: 0;
-    word-wrap: break-word; /* Wrap long titles if necessary */

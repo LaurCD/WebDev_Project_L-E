@@ -113,25 +113,3 @@ footer {
     font-size: 26px;
     color: black;
 }
-.finishing-line {
-    width: 100%; /* Full width of the page */
-    height: 10px; /* Height of the animation strip */
-    background: repeating-linear-gradient(
-        90deg,
-        black 0%,
-        black 10%,
-        white 10%,
-        white 20%
-    ); /* Creates a finishing line pattern */
-    animation: scroll-line 2s linear infinite; /* Animates the background */
-}
-
-@keyframes scroll-line {
-    from {
-        background-position: 0;
-    }
-    to {
-        background-position: 100% 0;
-    }
-}
-

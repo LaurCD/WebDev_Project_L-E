@@ -113,3 +113,37 @@ footer {
     font-size: 26px;
     color: black;
 }
+/* Ribbon Container */
+.ribbon-container {
+    width: 100%;
+    overflow: hidden; /* Hide overflow to create a scrolling effect */
+    background-color: #ff6f61; /* Ribbon background color */
+    padding: 10px 0;
+    position: relative;
+}
+
+/* Scrolling Ribbon */
+.ribbon {
+    display: flex;
+    white-space: nowrap; /* Prevent text from wrapping */
+    animation: scrollRibbon 10s linear infinite; /* Continuous scrolling animation */
+}
+
+/* Ribbon Text */
+.ribbon span {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    padding-left: 100%; /* Add spacing for the scroll effect */
+}
+
+/* Keyframes for Scrolling Animation */
+@keyframes scrollRibbon {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

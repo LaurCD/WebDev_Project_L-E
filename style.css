@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: aliceblue;
@@ -11,7 +10,6 @@ body {
     font-size: 20px;
     padding-top: 100px;
 }
-
 nav ul {
     list-style-type: none;
     padding: 10px;
@@ -19,22 +17,18 @@ nav ul {
     margin-top: 80px;
     text-align: center;
 }
-
 nav ul li {
     display: inline;
     margin-right: 20px;
 }
-
 nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
 }
-
 nav ul li a:hover {
     color: #ddd;
 }
-
 header {
     position: fixed;
     top: 0;
@@ -46,13 +40,11 @@ header {
     padding: 20px 0;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 header h1 {
     font-size: 36px;
     margin: 0;
     color: black;
 }
-
 .car-section {
     padding: 20px;
     background-color: white;
@@ -60,19 +52,16 @@ header h1 {
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 .car-section h2 {
     font-size: 40px;
     margin-bottom: 10px;
 }
-
 .car-image {
     width: 100%;
     max-width: 600px;
     border-radius: 10px;
     margin: 0 auto 15px;
 }
-
 .testimonial {
     font-style: italic;
     font-size: 18px;
@@ -81,7 +70,6 @@ header h1 {
     margin: 0 auto;
     line-height: 1.6;
 }
-
 footer {
     background-color: #787878;
     color: white;
@@ -90,7 +78,6 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
 .owner-image {
     width: 250px;
     border-radius: 125px;
@@ -108,37 +95,29 @@ footer {
     font-size: 18px;
     color: black;
 }
-
 .contact_info {
     font-size: 26px;
     color: black;
 }
-/* Ribbon Container */
 .ribbon-container {
     width: 100%;
-    overflow: hidden; /* Hide overflow to create a scrolling effect */
-    background-color: white; /* Ribbon background color */
+    overflow: hidden;
+    background-color: white;
     padding: 10px 0;
     position: relative;
 }
-
-/* Scrolling Ribbon */
 .ribbon {
     display: flex;
-    white-space: nowrap; /* Prevent text from wrapping */
-    animation: scrollRibbon 10s linear infinite; /* Continuous scrolling animation */
+    white-space: nowrap;
+    animation: scrollRibbon 10s linear infinite;
 }
-
-/* Ribbon Text */
 .ribbon span {
     font-size: 24px;
     font-weight: bold;
     color: black;
     text-transform: uppercase;
-    padding-left: 100%; /* Add spacing for the scroll effect */
+    padding-left: 100%;
 }
-
-/* Keyframes for Scrolling Animation */
 @keyframes scrollRibbon {
     0% {
         transform: translateX(100%);

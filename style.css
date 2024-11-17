@@ -117,7 +117,7 @@ footer {
 .ribbon-container {
     width: 100%;
     overflow: hidden; /* Hide overflow to create a scrolling effect */
-    background-color: #ff6f61; /* Ribbon background color */
+    background-color: white; /* Ribbon background color */
     padding: 10px 0;
     position: relative;
 }
@@ -133,7 +133,7 @@ footer {
 .ribbon span {
     font-size: 24px;
     font-weight: bold;
-    color: white;
+    color: black;
     text-transform: uppercase;
     padding-left: 100%; /* Add spacing for the scroll effect */
 }

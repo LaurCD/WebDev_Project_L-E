@@ -16,7 +16,11 @@ form.addEventListener('submit', (e) => {
     if (LastName.value.trim() === '') {
         messages.push('*Last name is required');
     }
-
+    
+    if (email.value.trim() === '') {
+        messages.push('*Email is required');
+    }
+    
     if (reason.value === '') {
         messages.push('*Please select a reason for inquiry');
     }

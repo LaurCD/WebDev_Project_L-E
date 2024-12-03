@@ -14,7 +14,7 @@
                 <li><a href="collection.html">Collection</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href ="up_events.html"> Upcoming Events</a></li>
+                <li><a href="up_events.html">Upcoming Events</a></li>
             </ul>
         </nav>
     </div>
@@ -26,9 +26,31 @@
 
     <!-- Main Content Section -->
   </section class="contact_info">
-    <h2>Contact Us</h2>
-    <h5>Email: johnoreilly@wheelsonfire.ie</h5>
-    <h5>Phone: +353 123 456 7890</h5>
+  <h2>Contact Us</h2>
+  <form id="form">
+    <label for="FirstName">First Name:</label>
+    <input type="text" id="FirstName" name="FirstName"><br>
+
+    <label for="LastName">Last Name:</label>
+    <input type="text" id="LastName" name="LastName"><br>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email"><br>
+
+    <label for="reason">Reason for Inquiry:</label>
+    <select id="reason" name="reason">
+        <option value="">Select a reason</option>
+        <option value="general">General</option>
+        <option value="feedback">Feedback</option>
+        <option value="technical support">Technical Support</option>
+    </select><br>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message"></textarea><br>
+
+    <div id="error" role="alert" style="margin-top:10px;"></div>
+    <button type="submit">Submit</button>
+</form>
   <section>
     <div id="bottom-section">
         <!-- Footer Section -->

@@ -21,15 +21,18 @@ nav ul {
     margin-top: 80px;
     text-align: center;
 }
+
 nav ul li {
     display: inline;
     margin-right: 20px;
 }
+
 nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
 }
+
 nav ul li a:hover {
     color: #ddd;
 }
@@ -46,20 +49,14 @@ header {
     padding: 20px 0;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 header h1 {
     font-size: 36px;
     margin: 0;
     color: black;
 }
 
-.car-section {
-    padding: 20px;
-    background-color: white;
-    margin: 20px 0;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
-
+/* Car Section (Updated to use Flexbox for image and description side by side) */
 .car-section {
     display: flex;
     justify-content: space-between;
@@ -72,10 +69,10 @@ header h1 {
 }
 
 .car-image {
-    width: 50%;
+    width: 50%;  /* Adjust width for image */
     max-width: 300px;
     border-radius: 10px;
-    margin-right: 20px;
+    margin-right: 20px; /* Spacing between image and text */
 }
 
 .testimonial {
@@ -101,6 +98,7 @@ footer {
     border-radius: 125px;
     max-width: 100%;
 }
+
 .car-of-the-week {
     background-color: white;
     border-radius: 10px;
@@ -109,10 +107,12 @@ footer {
     text-align: center;
     margin: 40px 0;
 }
+
 .about_us {
     font-size: 18px;
     color: black;
 }
+
 .contact_info {
     font-size: 26px;
     color: black;
@@ -126,11 +126,13 @@ footer {
     padding: 10px 0;
     position: relative;
 }
+
 .ribbon {
     display: flex;
     white-space: nowrap;
     animation: scrollRibbon 10s linear infinite;
 }
+
 .ribbon span {
     font-size: 24px;
     font-weight: bold;
@@ -138,6 +140,7 @@ footer {
     text-transform: uppercase;
     padding-left: 100%;
 }
+
 @keyframes scrollRibbon {
     0% {
         transform: translateX(100%);
@@ -170,16 +173,18 @@ footer {
     }
 
     .car-section {
+        flex-direction: column; /* Stack image and description on mobile */
         padding: 10px;
         margin: 10px 0;
     }
 
-    .car-section h2 {
-        font-size: 28px;
+    .car-image {
+        width: 100%;  /* Full width for image */
+        margin-right: 0; /* Remove right margin */
     }
 
-    .car-image {
-        max-width: 100%;
+    .testimonial {
+        margin-top: 10px; /* Space between image and text */
     }
 
     .ribbon span {
@@ -206,8 +211,12 @@ footer {
         margin: 15px 0;
     }
 
-    .car-section h2 {
-        font-size: 32px;
+    .car-image {
+        width: 50%; /* 50% width for tablet devices */
+    }
+
+    .testimonial {
+        margin-top: 10px; /* Space between image and text */
     }
 
     .ribbon span {
@@ -218,28 +227,4 @@ footer {
 /* Desktop Screens (width > 1024px) */
 @media (min-width: 1025px) {
     body {
-        font-size: 20px;
-    }
-
-    header h1 {
-        font-size: 36px;
-    }
-
-    nav ul {
-        justify-content: center;
-        gap: 30px;
-    }
-
-    .car-section {
-        padding: 20px;
-    }
-
-    .car-section h2 {
-        font-size: 40px;
-    }
-
-    .ribbon span {
-        font-size: 24px;
-    }
-}
-
+    

@@ -110,14 +110,20 @@ footer {
     display: block;
     margin: 0 auto;  /* Centers image */
 }
-
 .car-of-the-week {
     background-color: white;
     border-radius: 10px;
-    padding: 20px;
+    padding: 30px; /* More padding for the car section */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     margin: 40px 0;
+}
+
+.car-of-the-week img {
+    width: 60%;  /* Increase image size */
+    max-width: 500px;  /* Set max-width to make the image more prominent */
+    border-radius: 10px; /* Rounded corners for the image */
+    margin-bottom: 20px; /* Add margin below the image for spacing */
 }
 
 .about_us {
@@ -203,6 +209,23 @@ footer {
     .ribbon span {
         font-size: 16px;
     }
+}
+.upcoming-events {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items to the start (top of the container) */
+    margin: 40px 0; /* Add some margin for spacing between sections */
+    padding: 20px; /* Padding for inner spacing */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.upcoming-events img {
+    width: 50%;  /* Adjust width of the image to take up half the space */
+    max-width: 400px;  /* Set a max-width to avoid stretching */
+    border-radius: 10px; /* Rounded corners for image */
+    margin-right: 20px; /* Spacing between the image and text */
 }
 
 /* Tablet Devices (width between 600px and 1024px) */

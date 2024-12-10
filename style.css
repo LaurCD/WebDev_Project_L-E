@@ -56,17 +56,12 @@ header h1 {
     color: black;
 }
 
-/* Separate headers for customization */
-h2 {
-    font-size: 28px;
+/* Styling for All Section Headers */
+section h2, section h3 {
+    margin-bottom: 20px;  /* Adds space below headers */
+    font-weight: bold;
+    text-align: center;  /* Centers headers */
     color: #333;
-    margin: 20px 0;
-}
-
-h3 {
-    font-size: 24px;
-    color: #666;
-    margin: 15px 0;
 }
 
 /* Car Section (Updated to use Flexbox for image and description side by side) */
@@ -74,11 +69,12 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: flex-start; /* Corrected typo */
-    padding: 20px;
+    padding: 40px;  /* Increased padding for better spacing */
     background-color: white;
     margin: 20px 0;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
 }
 
 .car-image {
@@ -86,6 +82,7 @@ h3 {
     max-width: 300px;
     border-radius: 10px;
     margin-right: 20px; /* Spacing between image and text */
+    margin-bottom: 20px;  /* Adds space below image */
 }
 
 .testimonial {
@@ -110,6 +107,8 @@ footer {
     width: 250px;
     border-radius: 125px;
     max-width: 100%;
+    display: block;
+    margin: 0 auto;  /* Centers image */
 }
 
 .car-of-the-week {
@@ -187,13 +186,14 @@ footer {
 
     .car-section {
         flex-direction: column; /* Stack image and description on mobile */
-        padding: 10px;
+        padding: 20px;
         margin: 10px 0;
     }
 
     .car-image {
         width: 100%;  /* Full width for image */
         margin-right: 0; /* Remove right margin */
+        margin-bottom: 20px;
     }
 
     .testimonial {
@@ -220,12 +220,13 @@ footer {
     }
 
     .car-section {
-        padding: 15px;
+        padding: 30px; /* More padding for tablet */
         margin: 15px 0;
     }
 
     .car-image {
         width: 50%; /* 50% width for tablet devices */
+        margin-bottom: 20px; /* Space below image */
     }
 
     .testimonial {
@@ -253,11 +254,12 @@ footer {
     }
 
     .car-section {
-        padding: 20px;
+        padding: 40px;  /* More padding for desktop */
     }
 
     .car-image {
         width: 50%; /* 50% width for desktop */
+        margin-bottom: 20px; /* Space below image */
     }
 
     .testimonial {

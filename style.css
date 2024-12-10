@@ -81,7 +81,7 @@ section h2, section h3 {
     width: 50%;  /* Adjust width for image */
     max-width: 300px;
     border-radius: 10px;
-    margin-right: 20px; /* Spacing between image and text */
+    margin-left: 20px; /* Spacing between image and text */
     margin-bottom: 20px;  /* Adds space below image */
 }
 

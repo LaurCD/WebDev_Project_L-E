@@ -60,7 +60,7 @@ header h1 {
 .car-section {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: left-allign;
     padding: 20px;
     background-color: white;
     margin: 20px 0;

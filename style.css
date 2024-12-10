@@ -56,11 +56,24 @@ header h1 {
     color: black;
 }
 
+/* Separate headers for customization */
+h2 {
+    font-size: 28px;
+    color: #333;
+    margin: 20px 0;
+}
+
+h3 {
+    font-size: 24px;
+    color: #666;
+    margin: 15px 0;
+}
+
 /* Car Section (Updated to use Flexbox for image and description side by side) */
 .car-section {
     display: flex;
     justify-content: space-between;
-    align-items: left-allign;
+    align-items: flex-start; /* Corrected typo */
     padding: 20px;
     background-color: white;
     margin: 20px 0;
@@ -227,4 +240,31 @@ footer {
 /* Desktop Screens (width > 1024px) */
 @media (min-width: 1025px) {
     body {
-    
+        font-size: 20px;
+    }
+
+    header h1 {
+        font-size: 36px;
+    }
+
+    nav ul {
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .car-section {
+        padding: 20px;
+    }
+
+    .car-image {
+        width: 50%; /* 50% width for desktop */
+    }
+
+    .testimonial {
+        margin-top: 0; /* No margin on desktop */
+    }
+
+    .ribbon span {
+        font-size: 24px;
+    }
+}
